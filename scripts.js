@@ -13,3 +13,17 @@ window.addEventListener("scroll", () => {
     })
     liana1.style.opacity = - scroll / (topParallax_height*1.5)+1.2
 });
+
+// validate the subcribe to newsletter 
+function validateSubscribeForm() {
+    let email = document.getElementById["subscribe-newsletter"];
+
+    // check if email field is not empty.
+    if (email.value == "") {
+        return false;
+    } else {
+
+        alert("Thanks a lot, You have succesfully subscribed our newsletter!");
+        return true;
+    }
+}

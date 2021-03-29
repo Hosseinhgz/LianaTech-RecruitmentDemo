@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav-top" class="nav-top-part">
+            <ul>
+                <li><a class="nav-link" aria-current="page" href="#news">News</a></li>
+                <li><a class="nav-link" aria-current="page" href="#news">Internet</a></li>
+            </ul>
+            <div class="dropdown">
+                
+                <button class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  English
+                </button>
+                <ul id="dropdown-menu" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Finnish</a></li>
+                  <li><a class="dropdown-item" href="#">Swedish</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="nav-bottom" class="navbar navbar-expand-lg navbar-dark bg-light navbar-fixed-top">
+            <div id="container-fluid" class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <logo><img src="http://localhost/LianaTech-RecruitmentDemo/images/LianaTech_logo.PNG" alt="" width="90" height="40"></logo>
+                </a>
+              <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#about-section">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#project-title">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+    <main>
+        <div id="top-parallax" class="top-parallax">
+            <h1 id="Liana1" class="liana1 translate" data-speed="0.7">Liana Technology</h1>
+
+
+            <h2 id="Liana2" class="Liana2 translate" data-speed="-0.30">Liana Technology</h2>
+            <h3 id="Liana3" class="Liana3 translate" data-speed="-0.1">Liana Technology</h3>
+            <h4 id="Liana4" class="Liana4 translate" data-speed="0.3">Liana Technology</h4>
+            <h5 id="Liana5" class="Liana5 translate" data-speed="0.4">Liana Technology</h5>
+
+
+        </div>
+        <!-- carsoul is started here-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="http://localhost/LianaTech-RecruitmentDemo/images/01-photo-1568992688065-536aad8a12f6-01_edited.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="welcom-h1">Software fueling digital marketing</h1>
+                    <button class="welcom-button" type="button">See all projects >></button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="http://localhost/LianaTech-RecruitmentDemo/images/02-photo-1556761175-5973dc0f32e7-02_edited.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="welcom-h1">Software fueling digital marketing</h1>
+                    <button class="welcom-button" type="button">See all projects >></button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="http://localhost/LianaTech-RecruitmentDemo/images/03-photo-1568992687947-868a62a9f521-03_edited.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="welcom-h1">Software fueling digital marketing</h1>
+                    <button class="welcom-button" type="button">See all projects >></button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container-fluid">
+            <!-- cards start here-->
+            <!-- card1 section start here-->
+
+            <div id="card-section">
+                <div class="card1 card h-100 mx-2 my-2" style="width: 20rem;">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1600427652630-f97cc4db10cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <p class="card-text1 card-text">Company</p>
+                    </div>
+                </div>
+                <div class="card1 card h-100 mx-2 my-2" style="width: 20rem;">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <p class="card-text1 card-text">Products</p>
+                    </div>
+                </div>
+                <div class="card1 card  h-100 mx-2 my-2" style="width: 20rem;">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <p class="card-text1 card-text">Contact Us</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- card2 section start here-->
+            <div id="icon-section">
+                <div class="card2">
+                    <div class="card2-row row">
+                      <div class="col-md-4">
+                          <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon1-suitcase-black-shape.PNG" alt="clients icon - suitecase" style="width:45px; max-width: 60px;">
+                      </div>
+                      <div class="c2col8 col-md-8">
+                          <div class="card2-body">
+                          <h5 class="counter-count card2-title card-title">3000</h5>
+                          <p class="card2-text card-text">client</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card2">
+                  <div class="card2-row row">
+                    <div class="col-md-4">
+                      <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon2-boy-face.PNG" alt="employees icon" style="width:45px; max-width: 60px;">
+                    </div>
+                    <div class="c2col8 col-md-8">
+                        <div class="card2-body">
+                        <h5 class="counter-count card2-title">180</h5>
+                        <p class="card2-text card-text">Employees</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div class="card2-row row">
+                    <div class="col-md-4">
+                      <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon3-earth.PNG" alt="daily users icon" style="width:45px; max-width: 60px;">
+                    </div>
+                    <div class="c2col8 col-md-8">
+                        <div class="card2-body">
+                        <h5 class="counter-count card2-title">10000</h5>
+                        <p class="card2-text card-text">Daily Users</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- latest new is start from here-->
+            <div class="latest-news">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Latest News</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- card3 section start here-->
+            <div class="latest-news">
+                <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
+                        <P class="card-date card-title">08.02.2021</P>
+                      <p class="card3-text  card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sunt voluptatibus, quia corrupti dolorem illum aperiam eligendi quo vel id pariatur, autem a ducimus, soluta quis quos. Ullam, possimus pariatur?</p>
+                </div>
+                <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
+                        <P class="card-date card-title">29.03.2021</P>
+                      <p class="card3-text card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi incidunt necessitatibus dicta, repellat laboriosam veritatis tenetur vero consectetur rerum aut ipsum molestias autem facilis magni, nemo cumque labore doloribus.</p>
+                </div>
+                <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
+                      <P class="card-date card-title">02.04.2021</P>
+                      <p class="card3-text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur sequi earum placeat laboriosam consequatur nobis consectetur accusamus veniam vel eos asperiores aliquid, et culpa beatae quidem! Sapiente, tempore cum?</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4th cards - refrences are start here-->
+        <div id="references">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>References</h3>
+                </div>
+            </div>
+            <div id="references-section">
+                <div class="card4 card card mx-2 my-2" style="width:18rem;">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/01-Bosch-logo_edited.jpg" class="card-img-top" alt="Bosch company logo">
+                    <hr>
+                    <div class="card4-body card-body">
+                    <h4 class="card-title"><b>Robert Bosch</b></h4>
+                    <p class="card-text">Bosch is a multinational engineering and electronics company</p>
+                    </div>
+                </div>
+                <div class="card4 card card mx-2 my-2" style="width: 18rem;">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/02-The-Body-Shop-Logo.png" class="card-img-top" alt="The body shop logo">
+                    <hr>
+                    <div class="card-body">
+                    <h4 class="card-title"><b>The Body Shop</b></h4>
+                    <p class="card-text">The body shop is a global beauty brand and it has more than 3000 stores in more than 60 countries</p>
+                    </div>
+                </div>
+                <div class="card4 card card mx-2 my-2" style="width: 18rem;">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/03-laplandHotels-logo_edited.jpg" class="card-img-top" alt="Lapland hotels logo">
+                    <hr>
+                    <div class="card-body">
+                    <h4 class="card-title"><b>Lapland Hotels</b></h4>
+                    <p class="card-text">Lapland hotels is the largest and the most diverse hotel chain in Lapland</p>
+                    </div>
+                </div>
+                <div class="card4 card card mx-2 my-2" style="width: 18rem;">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/04-ikea-logo-png_edited.jpg" class="card-img-top" alt="IKEA company logo">
+                    <hr>
+                    <div class="card-body">
+                    <h4 class="card-title"><b>IKEA</b></h4>
+                    <p class="card-text">IKEA is a multinational furniture store</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="subscribe">
+            <div class="subscribe mb-3 col-7">
+                <h3 id="newsletter">Subscribe to our newsletter</h3>
+                <P id="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio blanditiis iste est aperiam tempora, eum consequuntur eligendi, alias similique labore non, aliquam quibusdam illum sed libero dicta error porro! </P>  
+                <form id="subscribe-newsletter" name="subscribe-newsletter" onsubmit="alert('Thanks a lot, You have succesfully subscribed our newsletter!')" method="POST">
+                <div class="row">
+                    <div class="col-9">
+                    <input type="email" class="form-control" id ="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" placeholder="name@example.com" required><br>
+                    </div>
+                    <div class="col-3">
+                    <input id="subscribe-btn" class="subscribe-btn" type="submit" value="Subscribe"> 
+                    </div>
+                </div>  
+              </form>
+              </div>
+        </div>
+     </main>
+    <footer>
+        <div id="contact" class="row">
+            <div class="col-md-12">
+                <footer>
+                    <div class="footer-top">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                            <div class="container-fluid">
+                              <a class="navbar-brand" href="#">Liana Technology</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Company</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Products</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">News</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Interests</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <address>
+                                Phone number: +35403771254<br>
+                                Address: 78 Visamäentie, Hämeenlinna,<br>
+                                Country: Finland
+                            </address>
+                        </div>
+                        <div class="col-4">
+                            <p>social media logoes</p>
+                        </div>
+
+                    </div>
+ 
+                </footer>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="http://localhost/LianaTech-RecruitmentDemo/scripts.js"></script>
+
+
+</body>
+</html>
