@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="Personal_portfolio_style.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -109,7 +109,6 @@
             <!-- cards start here-->
             <!-- card1 section start here-->
 
-
             <div id="card-section">
               <div class="card1 card bg-dark card h-100 mx-3 my-3" style="width: 20rem;">
                 <a href="#">
@@ -140,46 +139,47 @@
             
             <!-- card2 section start here-->
             <div id="icon-section">
-              <div class="card2 card mb-2 my-2 mx-2" style="width: 14rem; max-width: 300px; min-width: 300;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon1-suitcase-black-shape.PNG" alt="..." style="max-width: 75px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card2-title card-title">10000</h5>
-                      <p class="card2-text card-text"><small class="text-muted">client</small></p>
+                <div class="card2">
+                    <div class="card2-row row">
+                      <div class="col-md-4">
+                          <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon1-suitcase-black-shape.PNG" alt="clients icon - suitecase" style="width:45px; max-width: 60px;">
+                      </div>
+                      <div class="c2col8 col-md-8">
+                          <div class="card2-body">
+                          <h5 class="counter-count card2-title card-title">3000</h5>
+                          <p class="card2-text card-text">client</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card2">
+                  <div class="card2-row row">
+                    <div class="col-md-4">
+                      <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon2-boy-face.PNG" alt="employees icon" style="width:45px; max-width: 60px;">
+                    </div>
+                    <div class="c2col8 col-md-8">
+                        <div class="card2-body">
+                        <h5 class="counter-count card2-title">180</h5>
+                        <p class="card2-text card-text">Employees</p>
+                        </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="card2 card mb-2 my-2 mx-2" style="width: 14rem; max-width: 300px; min-width: 300;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon2-boy-face.PNG" alt="..." style="max-width: 75px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card2-title card-title">180</h5>
-                      <p class="card2-text card-text"><small class="text-muted">Employes</small></p>
+                <div class="card2">
+                  <div class="card2-row row">
+                    <div class="col-md-4">
+                      <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon3-earth.PNG" alt="daily users icon" style="width:45px; max-width: 60px;">
+                    </div>
+                    <div class="c2col8 col-md-8">
+                        <div class="card2-body">
+                        <h5 class="counter-count card2-title">10000</h5>
+                        <p class="card2-text card-text">Daily Users</p>
+                        </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="card2 card mb-2 my-2 mx-2" style="width: 14rem; max-width: 300px; min-width: 300;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/icon3-earth.PNG" alt="..." style="max-width: 75px;">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card2-title card-title">10000</h5>
-                      <p class="card2-text card-text"><small class="text-muted">Daily users</small></p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
+            <!-- latest new is start from here-->
             <div class="latest-news">
                 <div class="row">
                     <div class="col-md-12">
@@ -187,69 +187,20 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- card3 - RSS section is start here-->
+        </div>
+            <!-- card3 section start here-->
             <div class="latest-news">
-
-            <div id="rss-feed-section">
-              <!-- start sw-rss-feed code --> 
-              <script type="text/javascript"> 
-                <!-- 
-                rssfeed_url = new Array(); 
-                rssfeed_url[0]="https://www.lianatech.com/blog.rss";  
-                rssfeed_frame_width="300"; 
-                rssfeed_frame_height="260"; 
-                rssfeed_scroll="on"; 
-                rssfeed_scroll_step="6"; 
-                rssfeed_scroll_bar="off"; 
-                rssfeed_target="_blank"; 
-                rssfeed_font_size="12"; 
-                rssfeed_font_face=""; 
-                rssfeed_border="on"; 
-                rssfeed_css_url=""; 
-                rssfeed_title="off"; 
-                rssfeed_title_name=""; 
-                rssfeed_title_bgcolor="#3366ff"; 
-                rssfeed_title_color="#fff"; 
-                rssfeed_title_bgimage=""; 
-                rssfeed_footer="off"; 
-                rssfeed_footer_name="rss feed"; 
-                rssfeed_footer_bgcolor="#fff"; 
-                rssfeed_footer_color="#333"; 
-                rssfeed_footer_bgimage=""; 
-                rssfeed_item_title_length="50"; 
-                rssfeed_item_title_color="#666"; 
-                rssfeed_item_bgcolor="#fff"; 
-                rssfeed_item_bgimage=""; 
-                rssfeed_item_border_bottom="on"; 
-                rssfeed_item_source_icon="off"; 
-                rssfeed_item_date="off"; 
-                rssfeed_item_description="on"; 
-                rssfeed_item_description_length="120"; 
-                rssfeed_item_description_color="#666"; 
-                rssfeed_item_description_link_color="#333"; 
-                rssfeed_item_description_tag="off"; 
-                rssfeed_no_items="0"; 
-                rssfeed_cache = "648e9160b5429ba90af4edf060f26f71"; 
-                //--> 
-                </script> 
-                <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
-                <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
-                <div style="color:#ccc;font-size:10px; text-align:right; width:300px;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank" style="color:#ccc;">Surfing Waves</a></div> 
-                <!-- end sw-rss-feed code -->
-            </div>
-
                 <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
                         <P class="card-date card-title">08.02.2021</P>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sunt voluptatibus, quia corrupti dolorem illum aperiam eligendi quo vel id pariatur, autem a ducimus, soluta quis quos. Ullam, possimus pariatur?</p>
+                      <p class="card3-text  card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sunt voluptatibus, quia corrupti dolorem illum aperiam eligendi quo vel id pariatur, autem a ducimus, soluta quis quos. Ullam, possimus pariatur?</p>
                 </div>
                 <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
                         <P class="card-date card-title">29.03.2021</P>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi incidunt necessitatibus dicta, repellat laboriosam veritatis tenetur vero consectetur rerum aut ipsum molestias autem facilis magni, nemo cumque labore doloribus.</p>
+                      <p class="card3-text card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi incidunt necessitatibus dicta, repellat laboriosam veritatis tenetur vero consectetur rerum aut ipsum molestias autem facilis magni, nemo cumque labore doloribus.</p>
                 </div>
                 <div class="card3 card-body card text-center h-100 card mx-2 " style="width: 20rem;">
                       <P class="card-date card-title">02.04.2021</P>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur sequi earum placeat laboriosam consequatur nobis consectetur accusamus veniam vel eos asperiores aliquid, et culpa beatae quidem! Sapiente, tempore cum?</p>
+                      <p class="card3-text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur sequi earum placeat laboriosam consequatur nobis consectetur accusamus veniam vel eos asperiores aliquid, et culpa beatae quidem! Sapiente, tempore cum?</p>
                 </div>
             </div>
         </div>
@@ -261,36 +212,36 @@
                 </div>
             </div>
             <div id="references-section">
-                <div class="card4 card card mx-2 my-2" style="width: 18rem; heigh: 20rem">
+                <div class="card4 card card mx-2 my-2" style="width:18rem;">
                     <img src="http://localhost/LianaTech-RecruitmentDemo/images/01-Bosch-logo_edited.jpg" class="card-img-top" alt="Bosch company logo">
                     <hr>
-                    <div class="card-body">
-                    <h4 class="card-title"><b>Card title</b></h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="card4-body card-body">
+                    <h4 class="card-title"><b>Robert Bosch</b></h4>
+                    <p class="card-text">Bosch is a multinational engineering and electronics company</p>
                     </div>
                 </div>
                 <div class="card4 card card mx-2 my-2" style="width: 18rem;">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/02-The-Body-Shop-Logo.png" class="card-img-top" alt="Bosch company logo">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/02-The-Body-Shop-Logo.png" class="card-img-top" alt="The body shop logo">
                     <hr>
                     <div class="card-body">
-                    <h4 class="card-title"><b>Card title</b></h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h4 class="card-title"><b>The Body Shop</b></h4>
+                    <p class="card-text">The body shop is a global beauty brand and it has more than 3000 stores in more than 60 countries</p>
                     </div>
                 </div>
                 <div class="card4 card card mx-2 my-2" style="width: 18rem;">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/03-laplandHotels-logo_edited.jpg" class="card-img-top" alt="Bosch company logo">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/03-laplandHotels-logo_edited.jpg" class="card-img-top" alt="Lapland hotels logo">
                     <hr>
                     <div class="card-body">
-                    <h4 class="card-title"><b>Card title</b></h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h4 class="card-title"><b>Lapland Hotels</b></h4>
+                    <p class="card-text">Lapland hotels is the largest and the most diverse hotel chain in Lapland</p>
                     </div>
                 </div>
                 <div class="card4 card card mx-2 my-2" style="width: 18rem;">
-                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/04-ikea-logo-png_edited.jpg" class="card-img-top" alt="Bosch company logo">
+                    <img src="http://localhost/LianaTech-RecruitmentDemo/images/04-ikea-logo-png_edited.jpg" class="card-img-top" alt="IKEA company logo">
                     <hr>
                     <div class="card-body">
-                    <h4 class="card-title"><b>Card title</b></h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h4 class="card-title"><b>IKEA</b></h4>
+                    <p class="card-text">IKEA is a multinational furniture store</p>
                     </div>
                 </div>
             </div>
@@ -300,15 +251,16 @@
             <div class="subscribe mb-3 col-7">
                 <h3 id="newsletter">Subscribe to our newsletter</h3>
                 <P id="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio blanditiis iste est aperiam tempora, eum consequuntur eligendi, alias similique labore non, aliquam quibusdam illum sed libero dicta error porro! </P>  
-                <div id="subscribe-form" class="row">
-                    <div class="col-8">
-                    <input type="email" class="form-control" id="formControlInput1" placeholder="name@example.com">
+                <form id="subscribe-newsletter" name="subscribe-newsletter" onsubmit="alert('Thanks a lot, You have succesfully subscribed our newsletter!')" method="POST">
+                <div class="row">
+                    <div class="col-9">
+                    <input type="email" class="form-control" id ="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" placeholder="name@example.com" required><br>
                     </div>
-                    <div class="col-4">
-                    <button class="subscribe-btn" type="submit">Subscribe</button>
+                    <div class="col-3">
+                    <input id="subscribe-btn" class="subscribe-btn" type="submit" value="Subscribe"> 
                     </div>
                 </div>  
-
+              </form>
               </div>
         </div>
      </main>
