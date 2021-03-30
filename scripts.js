@@ -1,3 +1,4 @@
+// create a parralax part 
 const translate = document.querySelectorAll(".translate");
 const liana1 = document.querySelector(".liana1");
 const topParallax = document.querySelector(".top-parallax");
@@ -14,16 +15,25 @@ window.addEventListener("scroll", () => {
     liana1.style.opacity = - scroll / (topParallax_height*1.5)+1.2
 });
 
-// validate the subcribe to newsletter 
-function validateSubscribeForm() {
-    let email = document.getElementById["subscribe-newsletter"];
+// create a counter for counter section
+const counters = document.querySelectorAll('.counter');
+const speed = 100;
 
-    // check if email field is not empty.
-    if (email.value == "") {
-        return false;
-    } else {
+counters.forEach(counter => {
+    const updateCount = () =>{
+        // add the data target to a target variable as number with using +
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText
+        // here creating speed to all numbers can finnish together
+        const increment = target/speed;
+        if(count<(target-increment+1)){
+            counter.innerText = Math.round(count + increment);
+            setTimeout(updateCount, 80)
+        }else {
+            count.innerText = target;
 
-        alert("Thanks a lot, You have succesfully subscribed our newsletter!");
-        return true;
+        }
+        
     }
-}
+    updateCount();
+});
