@@ -122,8 +122,8 @@ body {
   justify-content: space-between;
 }
 #dropdown-menu {
-  background-color: #ffffff;
-  margin: 0 auto;
+  background-color: #ff5100;
+  text-align: center;
 }
 #nav-top button {
   background-color: #ffffff;
