@@ -153,6 +153,19 @@ body {
   background-color: #ffffff;
   color: #4c9825;
 }
+.carousel-caption button {
+  background-color: #4c9825;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0px solid #ffffff;
+  width: 150px;
+  height: 40px;
+  transition: 0.25s;
+}
+.carousel-caption button:hover {
+  background-color: #ff5100;
+  border: 0px solid #ffffff;
+}
 .counters {
   background-color: white;
   color: darkgray;
