@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
-  max-width: 1440px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 body {
@@ -8,13 +8,28 @@ body {
   color: #ff5100;
   font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
-
+.navbar-brand0 {
+  justify-content: ;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.form-control0 {
+  height: 40px;
+  width: 400px;
+  justify-self: center;
+}
+.search-btn0 {
+  width: 150px;
+  height: 40px;
+}
 .top-parallax {
   width: 100%;
   height: 90vh;
   position: relative;
   overflow: hidden;
-  margin: 10px 0px 20px 0px;
+  margin: 5px 0px 10px 0px;
 }
 .top-parallax:after {
   content: "";
@@ -40,13 +55,13 @@ body {
   font-weight: 1000;
   color: #4c9825;
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   width: 1500px;
   right: -40;
   z-index: 19;
 }
 .Liana3 {
-  font-size: 40vh;
+  font-size: 38vh;
   font-weight: 900;
   color: #4b9825b7;
   position: absolute;
@@ -56,7 +71,7 @@ body {
   z-index: 15;
 }
 .Liana4 {
-  font-size: 20vh;
+  font-size: 23vh;
   font-weight: 800;
   color: #4b98257e;
   position: absolute;
@@ -66,7 +81,7 @@ body {
   z-index: 13;
 }
 .Liana5 {
-  font-size: 10vh;
+  font-size: 18vh;
   font-weight: 700;
   color: #4b982549;
   position: absolute;
@@ -88,7 +103,6 @@ body {
   background-color: #4c9825;
   color: #ffffff;
   text-decoration: none;
-  padding: 0px 3%;
   z-index: 1;
 }
 #nav-top li {
@@ -122,11 +136,7 @@ body {
 #nav-bottom {
   background-color: #ffffff !important;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: right;
   height: 60px;
-  padding: 10px 20px;
   z-index: 30;
 }
 .navbar-collapse {
@@ -333,11 +343,6 @@ hr {
   width: 600px;
   margin: 10px;
 }
-.d-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
 @keyframes motionh1 {
   0% {
@@ -371,7 +376,7 @@ footer {
   width: 320px;
   text-align: left;
   align-self: flex-start;
-  text-align: start;
+  font-size: 12px;
 }
 .social {
   width: 320px;
@@ -395,17 +400,12 @@ footer {
     flex-wrap: wrap;
   }
   .form-control0 {
-    height: 40px;
-    width: 150px;
-    justify-self: center;
+    width: 60vw;
     margin: 10px;
   }
   .search-btn0 {
-    background-color: #ff5100;
-    width: 150 px;
-    height: 40px;
-    padding-bottom: 0px;
-    margin-top: 10px;
+    width: 60vw;
+    margin: 10px;
   }
   .counters .icon-container {
     grid-template-columns: repeat(2, 1fr);
@@ -465,6 +465,9 @@ footer {
   .form-control2 {
     width: 60vw;
   }
+  .liana1 {
+    font-size: 10vw;
+  }
 }
 @media only screen and (max-width: 400px) {
   .counters .icon-container {
@@ -475,5 +478,14 @@ footer {
   }
   .form-control2 {
     width: 80vw;
+  }
+  .form-control0 {
+    width: 70vw;
+  }
+  .search-btn0 {
+    width: 70vw;
+  }
+  .liana1 {
+    font-size: 12vw;
   }
 }
