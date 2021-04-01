@@ -1,21 +1,15 @@
 # LianaTech-RecruitmentDemo
-This project is going to be a Recruitment Demo for main page of Liana Technology company.
+This project is going to be a Recruitment Demo for the main page of Liana Technology company.
 
-Coding Assignment: Front-End
+the main part of this project is written by HTML and CSS and some JavaScript code is added to make it more dynamic.
+At the beginning of the webpage a parallax component is created and this component is responsive for all devices.
+The latest news section is created and uses the RSS feed from https://www.lianatech.com/blog.rss
+for the Newsletter subscription section email validation is implemented and after submitting the thank you notification is popping up as a javascript alert.
+also, you can not submit the empty field.
+for Clients, Employees, and Users sections animated numbers are implemented and when you refresh the page they start to count until they reach the specified numbers.
 
-Your task is to build a responsive HTLM page based on the .psd file provided here: https://www.dropbox.com/s/guv6...
+you can see the demo of the web page with the link below:
+https://hosseinhgz.github.io/LianaTech-RecruitmentDemo/
 
-Please note that you can use a readymade framework in the assignment. We hope to find the following things from your work:
-
-Basic skills:
-
-HTML+CSS
-The page is responsive on different devices
-
-Extra points (Javascript/RSS/parallax):
-
-Main image with parallax Latest News section of the RSS feed: https://www.lianatech.com/blog.rss
-Clients, Employees and Users sections with animated numbers
-Newsletter subscription and thank you notification
-Other skills may be demonstrated as well
-
+I would be grateful to hear any opinion about my work.
+Thanks a lot for your time
